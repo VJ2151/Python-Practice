@@ -1,15 +1,22 @@
+# 1.
 #Converting an Integer into Decimals
 # import decimal
 # num = input("Enter any number: ")
 # new=decimal.Decimal(num)
 # print(type(new))
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 2
 # Reverse each word in the input string
 # text = input("Enter any text: ")
 # words = text.split()
 # reversed_text = [word[::-1] for word in words]
 # print(" ".join(reversed_text))
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+# 3
 #  Counting Vowels in a Given Word:
 # vowels = ['a','e','i','o','u']
 # text = input("Enter any word: ")
@@ -21,6 +28,9 @@
 #         pass
 # print("Total count of vowels present in word : ",count)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 4
 # Counting the Number of Occurrences of a Character in a String
 # text = input("Enter any string: ")
 # ch = 'e'
@@ -30,6 +40,9 @@
 #         occurence += 1
 # print(occurence)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 5
 # Writing Fibonacci Series:   0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 # def fibonacci():
 #     a,b = 0,1
@@ -39,7 +52,9 @@
 #         a,b = b, a+b
 # fibonacci()
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# 6
 # Finding the Maximum Number in a List:
 # list1 = input("Enter items in a list: ").split()
 # biggest = 0
@@ -48,6 +63,9 @@
 #         biggest = int(i)
 # print(biggest)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 7
 # Finding the minimum Number in a List:
 # list1 = input("Enter items in a list: ").split()
 # smallest = 100
@@ -56,6 +74,9 @@
 #         biggest = int(i)
 # print(smallest)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 8
 # Finding the 2nd maximum Number in a List:
 # list1 = input("Enter items in a list: ").split()
 # biggest = int(list1[0])
@@ -74,20 +95,28 @@
 # print("biggest : ",biggest)
 # print("second_biggest : ",second_biggest)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 9
 # Finding the Middle Element in a List:
 # list1 = input("Enter items for a list separated by spaces: ").split()
 # n = len(list1)
-
 # if n % 2 == 1:
 #     print("Middle element:", list1[n // 2])
 # else:
 #     print("Middle elements:", list1[(n // 2) - 1], "and", list1[n // 2])
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 10
 # Converting a List into a String:
 # list1 = ['Hello,', 'My', 'Name', 'is', 'vijay', 'Rajage']
 # str = ' '.join(list1)
 # print(str)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 11
 # Adding Two List Elements Together:
 # lst1 = [1, 2, 3]
 # lst2 = [4, 5, 6] 
@@ -97,6 +126,9 @@
 #         added_list.append(add)
 # print(added_list)
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 12
 # Comparing Two Strings for Anagrams:
 # str1 = "Listen"
 # str2 = "Silent"
@@ -105,6 +137,9 @@
 # else:
 #     print("not anagrams")
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 13
 # Palindrome(A palindrome is a word, number, phrase, or sequence that reads the same backward as forward.):
 # str1 = "Kayak".lower()
 # str2 = "kayak".lower()
@@ -113,21 +148,33 @@
 # else:
 #     print("not palindrome")
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 14
 # Counting the White Spaces in a String
 # string = "P r ogramm in g "
 # print(string.count(' '))
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 15
 # Removing All Whitespace in a String:
 # string = "C O D E"
 # str=string.split()
 # print(''.join(str))
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 16
 # Building a Pyramid in Python:
 # rows = 6
 # for i in range(rows):
 #     print("_" * (rows - i - 1), end="")           # Print spaces 
 #     print("*" * (2 * i + 1))                      # Print stars
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 17
 # FACTORIAL
 # num = int(input("enter a n0. to find it's factorial: "))
 # def fact(num):
@@ -139,6 +186,9 @@
 #         return num * fact(num-1)
 # print(fact(num))
 
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 18
 # Find the First Non-Repeating Character
 # ch = input("enter any word: ")
 # for i in ch:
@@ -148,7 +198,7 @@
 # else:
 #     print("no")
 
-
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
