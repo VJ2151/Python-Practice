@@ -128,6 +128,43 @@
 #     print("_" * (rows - i - 1), end="")           # Print spaces 
 #     print("*" * (2 * i + 1))                      # Print stars
 
+# FACTORIAL
+# num = int(input("enter a n0. to find it's factorial: "))
+# def fact(num):
+#     if num < 0:
+#         return "please provide a positive number"
+#     elif num == 0:
+#         return 1
+#     else:
+#         return num * fact(num-1)
+# print(fact(num))
+
+# Find the First Non-Repeating Character
+# ch = input("enter any word: ")
+# for i in ch:
+#     if ch.count(i) == 1:
+#         print (i,"is the first non repeating character")
+#         break
+# else:
+#     print("no")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
