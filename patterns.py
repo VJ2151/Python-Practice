@@ -15,3 +15,23 @@ while count<loop:
             break
         print("*",end=" ")
         count+=1
+
+
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+for i in range(5):
+    print("G"*(5-i),end=" ")
+    for stars in range(i+1):
+        print("*",end=" ")
+    print("G"*(5-i),end=" ")
+    print()
+    
+for i in range(7):
+    print("G"*i,end=" ")
+    for stars in range(5-i,-1,-1):
+        print("*",end=" ")
+    print("G"*i,end=" ")
+    print()
