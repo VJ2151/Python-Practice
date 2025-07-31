@@ -17,11 +17,18 @@ while count<loop:
         count+=1
 
 
-#     *
-#    ***
-#   *****
-#  *******
-# *********
+# GGGGG * GGGGG 
+# GGGG * * GGGG 
+# GGG * * * GGG 
+# GG * * * * GG 
+# G * * * * * G 
+#  * * * * * *  
+# G * * * * * G 
+# GG * * * * GG 
+# GGG * * * GGG 
+# GGGG * * GGGG 
+# GGGGG * GGGGG 
+# GGGGGG GGGGGG 
 for i in range(5):
     print("G"*(5-i),end=" ")
     for stars in range(i+1):
