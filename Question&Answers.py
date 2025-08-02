@@ -293,11 +293,57 @@ for i in range(n):
             a[j],a[j+1]=a[j+1],a[j]
 print(a)
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 1. WAP to find Second largest element in an array : arr[] = [12, 35, 1, 10, 34, 1, 35], without
+# sorting, without using any built-in methods and without deleting duplicate elements. What will be
+# the time complexity?
 
-    
-   
+arr = [1, 2, 3, 4, 5]
 
+max1=arr[0]
+max2=arr[1]
 
+if max2 > max1 :
+    max1, max2 = max2, max1
+
+for i in range(2,len(arr)):
+    if arr[i]>max1:
+        max2=max1
+        max1=arr[i]
+        
+    elif arr[i]<max1 and arr[i]>max2:
+        max2=arr[i]
+
+print("maximum : ",max1)
+print("Second maximum : ",max2)      
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 2. *Reverse Integer*
+#   Without converting to string and without using any built-in methods.
+
+inp = 12373
+rev = 0
+
+while inp != 0:
+    num = inp % 10
+    print(f"num = {inp} % 10 = ",num)
+    print(f"rev = {rev} * 10 + {num}")
+    rev = rev * 10 + num
+    print(rev)
+    print(f"inp = {inp} // 10")
+    inp = inp // 10
+    print(inp)
+print(rev)
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+a ="listen"
+b = "silence"
+print(sorted(a))
+print(sorted(b))
+if sorted(a)==sorted(b):
+    print("anagrams")
+else:
+    print("No")
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
