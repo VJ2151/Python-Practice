@@ -434,7 +434,24 @@ for num in arr:
     List2: 6, 7, 8, 9
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 17. *Group Anagrams*
+#     Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
+#     Output: [[bat], [nat, tan], [eat, tea, ate]]
+words = ["eat", "tea", "tan", "ate", "nat", "bat"]
+used = []
+output = []
 
+for first in words:
+    if first in used:
+        continue
+    group=[first]
+    for second in words:
+        if first != second and sorted(first)==sorted(second):
+            group.append(second)
+            used.append(second)
+    used.append(first)
+    output.append(group)
+print(output)
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
